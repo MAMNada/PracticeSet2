@@ -11,11 +11,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         // PASTE CODE YOU WANT TO TEST HERE
-        int day1 = 15;
-        int day2 = 22;
-        int day3 = 18;
-        display(day1 + day2 + day3 / 3);
-    }
+        int dollars = 40;
+        int dollarsToYen = 119;
+        int yen = dollarsToYen * dollars;
+        display(yen);    }
 
     /**
      * Display methods that allow the text to appear on the screen. Don't worry if you don't know
