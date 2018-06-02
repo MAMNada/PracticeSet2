@@ -11,10 +11,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         // PASTE CODE YOU WANT TO TEST HERE
-        int dollars = 40;
-        int dollarsToYen = 119;
-        int yen = dollarsToYen * dollars;
-        display(yen);    }
+        String firstName = "Lyla";
+        String lastName = "Fujiwara";
+        String contactInfo = firstName + " " + lastName;
+        contactInfo = contactInfo+"<" + lastName + "." + firstName + "@justjava.com>";
+        display(contactInfo);
+    }
 
     /**
      * Display methods that allow the text to appear on the screen. Don't worry if you don't know
